@@ -20,7 +20,7 @@ nomer_pengirim ="+12029294009"
 # ambil data dari sensor
 GPIO.setwarnings(True)
 GPIO.setmode(GPIO.BCM)
-instance = dht11.DHT11(pin=4) #pakai pin 4 cek di gambar raspi pinout
+instance = dht11.DHT11(pin=7) #pakai pin cek di gambar raspi pinout
 
 try:
     while True:
